@@ -1,0 +1,37 @@
+# Core Framework
+streamlit
+
+# Machine Learning & AI
+torch
+langchain
+langchain-community
+langchain-huggingface
+langchain-ollama
+sentence-transformers
+faiss-cpu  # Use faiss-gpu if you have a compatible NVIDIA GPU and CUDA installed
+
+# Database & Authentication
+pymongo[srv]
+bcrypt
+# gridfs  <-- Provided by pymongo; no separate install needed
+dnspython
+
+# File & Document Handling
+PyPDF2
+python-docx
+
+# Data & Analytics
+pandas
+plotly
+
+# Audio Processing
+SpeechRecognition
+PyAudio
+
+# System & Web
+psutil
+requests
+beautifulsoup4
+
+# Crypto (for quantum-safe storage stubs)
+pycryptodome
